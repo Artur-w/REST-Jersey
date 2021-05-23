@@ -1,0 +1,6 @@
+com/rest/jersey/SimpleClient.class
+com/rest/jersey/HelloWorld.class
+com/rest/jersey/kmtomiles.class
+com/rest/jersey/milestokm.class
+com/rest/jersey/WarehouseService.class
+com/rest/jersey/WarehouseClient.class

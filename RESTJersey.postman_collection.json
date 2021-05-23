@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "c11d8ad2-48fe-4395-b633-c1b76b4d1ad3",
+		"name": "RESTJersey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET milestokm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET kmtomiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Hello",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RESTJersey/rest/milestokm/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RESTJersey",
+						"rest",
+						"milestokm",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT HelloWorld",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/RESTJersey/rest/helloworld/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RESTJersey",
+						"rest",
+						"helloworld",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Warehouse orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RESTJersey/rest/orders/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RESTJersey",
+						"rest",
+						"orders",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Warehouse orders Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RESTJersey/rest/orders/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RESTJersey",
+						"rest",
+						"orders",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
