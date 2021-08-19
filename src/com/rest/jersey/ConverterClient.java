@@ -12,27 +12,27 @@ public class ConverterClient {
 	public static void main(String[] args) {
         String uri = "http://localhost:8080/RESTJersey/rest/kmtomiles/50";
         String urim = "http://localhost:8080/RESTJersey/rest/milestokm/50";
-        
+
         ClientConfig config = new ClientConfig();
         Client client = ClientBuilder.newClient(config);
         WebTarget target = client.target(uri);
-         
+
         String response = target.request()
                     .accept(MediaType.APPLICATION_JSON)
                     .get(String.class);
-         
+
         System.out.println(response);
-        
-        
+
+
         WebTarget targetm = client.target(urim);
-        
+
         String responsem = targetm.request()
                     .accept(MediaType.APPLICATION_JSON)
                     .get(String.class);
-         
+
         System.out.println(responsem);
- 
-        
+
+
     }
 
 }

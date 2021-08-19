@@ -14,7 +14,7 @@ public class HelloWorld {
 	public String sayJsonHello() {
 		return "{\"name\":\"greeting\", \"message\":\"REST Jersey JSON Response!\"}";
 	}
-	
+
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String sayPlainTextHello() {
@@ -35,7 +35,7 @@ public class HelloWorld {
 				+ "</title>" + "<body><h1>" + "HTML encoded - Hello World RESTful Jersey"
 				+ "</body></h1>" + "</html> ";
 	}
-	
+
 
 
 }

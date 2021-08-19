@@ -12,16 +12,16 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import org.json.JSONObject;
+// import org.json.JSONObject;
 
 
 @Path("/orders")
 public class WarehouseService {
-	
+
 	public static Map<String, String> orders = new TreeMap<String, String>();
-	
-	JSONObject oders_json = new JSONObject(orders);
-	
+
+	// JSONObject oders_json = new JSONObject(orders);
+
 	@Path("/{order}")
 	@PUT
 	@Produces("text/html")
